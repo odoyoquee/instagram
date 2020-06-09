@@ -1,4 +1,4 @@
-#!/home/kebaso/Desktop/Instagram/virtual/bin/python3.6
+#!/home/grace/Desktop/insta/virtual/bin/python
 from django.core import management
 
 if __name__ == "__main__":

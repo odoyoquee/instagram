@@ -1,12 +1,8 @@
-#!/home/kebaso/Desktop/Instagram/virtual/bin/python3.6
-# EASY-INSTALL-ENTRY-SCRIPT: 'redcmd==1.2.10','console_scripts','redcmd'
-__requires__ = 'redcmd==1.2.10'
+#!/home/grace/Desktop/insta/virtual/bin/python
+# -*- coding: utf-8 -*-
 import re
 import sys
-from pkg_resources import load_entry_point
-
+from redcmd.main import main
 if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(
-        load_entry_point('redcmd==1.2.10', 'console_scripts', 'redcmd')()
-    )
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

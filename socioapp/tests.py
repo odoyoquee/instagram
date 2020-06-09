@@ -45,7 +45,7 @@ class ProfileTestClass(TestCase):
     '''
     
     def setUp(self):
-        self.profile_one = Profile(profile_photo='images/mine.jpg',bio='Currently doing datascience in moringa',user_id=3)
+        self.profile_one = Profile(profile_photo='images/mine.jpg',bio='Currently doing software development in moringa',user_id=3)
         
         
     def test_instance(self):

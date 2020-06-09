@@ -1,4 +1,4 @@
-#!/home/kebaso/Desktop/Instagram/virtual/bin/python3.6
+#!/home/grace/Desktop/insta/virtual/bin/python
 """Bootstrap setuptools installation
 
 To use setuptools in your package's setup.py, include this
